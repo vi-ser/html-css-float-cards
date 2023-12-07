@@ -4,7 +4,7 @@
     box-sizing: border-box;
 
     /* test */
-    border: 1px solid rgba(255, 0, 0, 0.475);
+    /* border: 1px solid rgba(255, 0, 0, 0.475); */
 }
 
 body {
@@ -19,6 +19,7 @@ body {
 
 .intro {
     text-align: center;
+    margin-bottom: 48px;
 }
 
 h1 {
@@ -38,4 +39,39 @@ h1 {
     content: '';
     display: table;
     clear: both;
+}
+
+.card {
+    background-color: #0F0E17;
+    width: 80%;
+}
+
+.description {
+    float: left;
+    padding: 12px;
+}
+
+.profile {
+    width: 100px;
+    float: left;
+}
+
+.name {
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 6px;
+}
+
+.job {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 6px;
+}
+
+.email {
+    display: block;
+    color: #4DCCF2;
+    text-decoration: none;
 }
