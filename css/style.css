@@ -32,8 +32,13 @@ h1 {
 
 .cards-group .card {
     float: left;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 32px);
     margin-right: 32px;
+}
+
+.cards-group .card:last-child {
+    margin-right: 0;
+    /* Rimuovi il margine per l'ultima card nella riga */
 }
 
 .clearfix::after {
